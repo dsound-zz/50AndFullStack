@@ -6747,7 +6747,7 @@ gatsby-transformer-remark@^2.8.25:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby@^2.23.12:
+gatsby@^2.10.00:
   version "2.24.31"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.24.31.tgz#c0b6433c677f9b1961a2ac7c6fbd2ca9d0fc68bb"
   integrity sha512-vGPLPe/LsO2MTpA77QO9qIUBsRkBUC1PCPedgSGb9OvWyUodsfO4/XVNFc77PfuSAs/XnAZ1TtTMOY3ZQj06Xg==
