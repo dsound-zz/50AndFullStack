@@ -10,12 +10,14 @@ const About = () => {
       <div className={aboutStyles.bio}>
         <p>
           I'm a mid-life career changer. After having a great career as musician
-          and commercial music composer, I decided to attend The Flatiron School
+          and commercial music composer, I decided to attend <a href="https://flatironschool.com/"
+          target="_blank" rel="noreferrer">The Flatiron School</a>{" "}
           coding bootcamp here in NYC. After 4 months, I was able to land my
           first tech job as a junior full-stack engineer. I'm proficient in
           HTML5, CSS3, Javascript ES6/7, ReactJS, Redux, Ruby on Rails and
           familiar with React Native, Node, the AWS platform and of course
-          GatsbyJS which is the framework for this blog!{" "}
+          GatsbyJS which is the framework for this blog! Did I mention I'm passionate about coding? Especiall
+          Javascript?
         </p>
       </div>
       <p>
@@ -24,12 +26,12 @@ const About = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Portfolio
+          <strong>Portfolio</strong>
         </a>
       </p>
       <p>
         <a href="https://github.com/dsound-zz" target="_blank" rel="noreferrer">
-          Github
+         <strong>Github</strong>
         </a>
       </p>
 

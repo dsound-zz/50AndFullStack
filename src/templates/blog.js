@@ -37,13 +37,13 @@ const blog = props => {
     <Layout>
       <Head title={props.data.contentfulBlogPost.title} />
       <h1>{props.data.contentfulBlogPost.title}</h1>
-      <p>{props.data.contentfulBlogPost.publishedDate}</p>
+      <p style={{fontSize: "0.75rem", fontStyle: "italic"}}>{props.data.contentfulBlogPost.publishedDate}</p>
       {documentToReactComponents(
         props.data.contentfulBlogPost.body.json,
         options
       )}
-   
-          <DiscussionEmbed {...disqusConfig} />
+        <hr style={{marginTop: "5rem"}}/>
+          <DiscussionEmbed style={{ marginTop: "2rem"}}{...disqusConfig} />
     
     </Layout>
   )
