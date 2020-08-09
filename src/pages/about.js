@@ -16,7 +16,7 @@ const About = () => {
           first tech job as a junior full-stack engineer. I'm proficient in
           HTML5, CSS3, Javascript ES6/7, ReactJS, Redux, Ruby on Rails and
           familiar with React Native, Node, the AWS platform and of course
-          GatsbyJS which is the framework for this blog! Did I mention I'm passionate about coding? Especiall
+          GatsbyJS which is the framework for this blog! Did I mention I'm passionate about coding? Especially
           Javascript?
         </p>
       </div>
