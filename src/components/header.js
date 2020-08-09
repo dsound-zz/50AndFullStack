@@ -21,11 +21,8 @@ const Header = () => {
     }
   `)
 
-
-
- 
-
   return (
+    
     <header className={headerStyles.header}>
       <h1>
         <Link className={headerStyles.title} to="/blog">
