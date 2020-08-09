@@ -22,15 +22,16 @@ const Header = () => {
   `)
 
   return (
-    
+
     <header className={headerStyles.header}>
       <h1>
         <Link className={headerStyles.title} to="/blog">
           {data.site.siteMetadata.title}
         </Link>
       </h1>
+      <Link to="/blog">
       <Img fixed={data.avatar.childImageSharp.fixed} />
-
+      </Link>
       <br />
       <nav>
         <ul className={headerStyles.navList}>
