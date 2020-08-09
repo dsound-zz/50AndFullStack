@@ -2,7 +2,7 @@ const path = require('path')
 
 
 module.exports.createPages = async ({ graphql, actions }) => {
-    const { createPage } = actions
+    const { createPage, createRedirect } = actions
     const blogTemplate = path.resolve('./src/templates/blog.js')
     const res = await graphql(`
     query {
@@ -14,6 +14,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         }
     }`)
+
     res.data.allContentfulBlogPost.edges.forEach((edge) => {
         createPage({
             component: blogTemplate,
@@ -23,7 +24,8 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         })
     })
-// 1. Get path to template 
-// 2. Get markdown data
-// 3. Create new pages 
 }
+
+
+
+
