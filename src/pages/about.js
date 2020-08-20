@@ -17,6 +17,9 @@ const About = () => {
           HTML5, CSS3, Javascript ES6/7, ReactJS, Redux, Ruby on Rails and
           familiar with React Native, NodeJS, the AWS platform and of course
           GatsbyJS which is the framework for this blog! Did I mention I'm passionate about coding? 
+        </p><br />
+        <p>I live in Brooklyn, NY and co-parent my 5 year old daughter with my ex-wife. I'm also a guitar player 
+          planning to start my own YT channel dedicated to that. 
         </p>
       </div>
       <p>
