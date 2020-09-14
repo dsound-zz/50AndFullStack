@@ -8,7 +8,7 @@ const About = () => {
       <Head title="About" />
       <h1>About me</h1>
       <div className={aboutStyles.bio}>
-        <p>
+        <p>Commodore64? War Games? Daytime TV advertisements for some technical college showing giant machines with tape reels promising a career in computer data? Yes please!<br />
           I'm a mid-life career changer. After having a great career as musician
           and commercial music composer, I decided to attend <a href="https://flatironschool.com/"
           target="_blank" rel="noreferrer">The Flatiron School</a>{" "}
