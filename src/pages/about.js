@@ -19,7 +19,7 @@ const About = () => {
           GatsbyJS which is the framework for this blog! Did I mention I'm passionate about coding? 
         </p><br />
         <p>I live in Brooklyn, NY and co-parent my 5 year old daughter with my ex-wife. I'm also a guitar player 
-          and planning to start my own YT channel dedicated to that. 
+          and planning to start my own YT channel dedicated to perfomance. 
         </p>
       </div>
       <p>
