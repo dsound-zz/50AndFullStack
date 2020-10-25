@@ -38,7 +38,7 @@ const About = () => {
       </p>
 
       <p>
-        React out to me at:{" "}
+        Please feel free to reach out:{" "}
         <a href="mailto: demiansims@gmail.com" target="_blank" rel="noreferrer">
           demiansims@gmail.com
         </a>
