@@ -1,16 +1,18 @@
 .container {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     max-width: 960px;
     padding: 1rem;
     min-height: 100vh;
 }
 
-.flexGrid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto -1rem 1rem;
-}
+// .flexGrid {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     margin: auto -1rem 1rem;
+// }
 
 .column {
     margin-left: 0.5rem;
@@ -18,23 +20,23 @@
     padding: 2rem;
 }
 
-.row {
-    display: block;
-    width: 100%;
+
+
+.header {
+    flex: 3;
+    background: black;
+    color: whitesmoke;
+    padding: 2rem;
 }
 
-.sidebar {
-    flex: 1;
-    background: black;
-}
 
 .content {
-    flex: 5;
-    width: 20rem;
+    flex: 3;
 }
 
 .footer {
-    border: 2px blue solid;
+    flex: 3;
+    text-align: center;
 }
 
 a { 
@@ -43,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: rgba(193, 195, 187, 0.904);
 }
 
 a:visited {
